@@ -22,7 +22,7 @@ options:
         description: This is full path to file.
         required: true
         type: str
-    new:
+    content:
         description:  content within the file. If it is not found the file will be overwritten with the specified context..
         required: false
         type: str
