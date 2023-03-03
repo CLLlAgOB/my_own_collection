@@ -1,0 +1,8 @@
+---
+- name: 8.6 Test module for ansible
+  hosts: localhost
+  tasks:
+  - name: Create file with content
+    my_own_module:
+      path: './test.txt'
+      content: "Hello World"

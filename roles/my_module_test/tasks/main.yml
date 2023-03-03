@@ -1,0 +1,7 @@
+---
+# tasks file for my_module_test
+- name: Create file with content
+  my_own_module:
+    path: './test.txt'
+    content: "Hello World"
+    
